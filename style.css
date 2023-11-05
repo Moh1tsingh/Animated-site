@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  widows: 100%;
+  height: 100%;
+  font-family: "nimbus-sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+}
+
+.nav {
+  position: relative;
+  padding: 3vw 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  font-size: 12px;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.nleft {
+  display: flex;
+  gap: 30px;
+}
+
+.nav #centerTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  opacity: 0.8;
+  letter-spacing: -0.07vw;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 15vw;
+  padding: 0 10vw;
+}
+
+.sustain {
+  width: 10vw;
+}
+
+.sustain h2{
+  opacity: 0.85;
+}
+
+.sustain p {
+  font-size: 12x;
+  margin: 10px 0;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.sustain .susimagewrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 15vw;
+}
+
+.susimagewrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ephemeral {
+  position: relative;
+  width: 30vw;
+  min-height: 42vw;
+}
+
+.ephemeral h1 {
+  letter-spacing: -0.4vw;
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 0.8;
+}
+
+.imagentext{
+  width: fit-content;
+  height: fit-content;
+}
+
+.ephemeral img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ephemeral .headings {
+  position: absolute;
+  top: -18%;
+  left: -13%;
+}
+
+.ephemeral p {
+  font-size: 1.3vw;
+  width: 40%;
+  letter-spacing: -0.07vw;
+  font-weight: 500;
+  opacity: 0.7;
+  line-height: 1.2;
+}
+
+.visit {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.circlev {
+  border-radius: 50%;
+  border: 1px solid #5e5e5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+}
+
+.circlev i {
+  color: #5e5e5e;
+}
+
+.visit h3 {
+  font-weight: 200;
+  color: #5e5e5e;
+}
+
+.motive{
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw;
+  margin-top: 7vw;
+}
+
+.motive h3{
+  font-size: 1.5vw;
+  font-weight: 500;
+  letter-spacing: -0.07vw;
+  opacity: 0.7;
+}
+
+.motive p{
+  margin-top: 1.5vw;
+  line-height: 1.6;
+  letter-spacing: -0.12vw;
+  font-weight: 500;
+  position: relative;
+  right : 0;
+  width: 85%;
+  text-align: right;
+  font-size: 1.9vw;
+  opacity: 0.8;
+}
+
+.motive span{
+  display: inline-block;
+  margin: 0 25px;
+  background-color: red;
+  border-radius: 100px;
+  margin: 0 10px;
+  margin-bottom:-11.5px;
+
+}
+
+.onespan{
+  width: 80px;
+  height: 45px;
+  background-image: url(./images/bluegirl.jpg);
+  background-size: cover;
+  background-position: 0% 60%;
+}
+
+.twospan{
+  width: 100px;
+  height: 45px;
+  background-image: url(./images/shaljam.jpg);
+  background-size: cover;
+  background-position: 0% 48%;
+
+}
+
+.threespan{
+  width: 80px;
+  height: 45px;
+  background-image: url(./images/grass.jpg);
+  background-size: cover;
+  background-position: 0% 60%;
+}
+
+.pictures{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8vw;
+  padding: 3vw;
+  padding-left: 14vw;
+  padding-right: 12vw;
+}
+
+.firstpic{
+  
+  width: 17vw; 
+}
+
+.firstpic .picimg{
+  width: 100%;
+  height: 26vw;
+  margin-bottom:1vw ;
+}
+
+.firstpic p, .secpic p{
+  opacity: 0.8;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.firstpic h1, .secpic h1{
+   letter-spacing: -.1vw;
+   font-weight: 400;
+   line-height: 1;
+   font-size: 2vw;
+}
+.picimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.secpic .picimg{
+  width: 100%;
+  height: 37vw;
+  margin-bottom:1vw ;
+}
+
+.secpic{
+  display: flex;
+  flex-direction: column;
+  align-items:end;
+  text-align: right;
+  width: 25vw; 
+}
+
+.secpic p{
+  width: 70%;
+}
+
+.banner{
+  display: flex;
+  align-items: center;
+  widows: 100%;
+  margin-top: 8vw;
+  
+}
+
+.bimg{
+  width: 65%;
+  height: 72vh;
+  background: red;
+}
+
+.bimg img{
+  width: 100%;
+  height: 100%;
+  object-position: 0 70%;
+  object-fit: cover;
+}
+
+.btext{
+  width: 35%;
+  padding: 0 3vw;
+}
+
+.btext h1{
+  font-size: 2.8vw;
+  font-weight: 400;
+  letter-spacing: -0.15vw;
+  line-height: 1;
+}
+
+.btext p{
+  opacity: 0.8;
+  width: 70%;
+  margin-top: 20px;
+  font-size: 1vw;
+}
+
+.future{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.future video{
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.ftext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  background-color: #fff;
+  padding: 1vw 2vw;
+  border-radius: 20px;
+}
+
+.ftext button{
+  padding: .8vw 1.7vw;
+  font-size: .6vw;
+  letter-spacing: -0.03vw;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid #9f9f9f;
+  color: #6f6f6f;
+  text-transform: capitalize;
+}
